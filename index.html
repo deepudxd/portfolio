@@ -1,37 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-   <header>
-    <nav>
-        <ul>
-            <img src="assets/logo.png" alt="logo" width="50" height="50" class="logo">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img src="assets/logo.png" alt="logo" width="50" height="50" class="logo" />
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
         <section id="about">
             <h1>Hi, I'm Deepak Dev.</h1>
             <h2>Beginner Python Developer</h2>
+            <br>
             <p>
-                I am learning Python and web development based at Kerala, India. I'm building projects
-                to improve my skills and prepare for future opportunities.
+                I am learning Python and web development based at Kerala, India. I'm
+                building projects to improve my skills and prepare for future
+                opportunities.
             </p>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
-            <p>Projects will be added soon.</p>
+            <br>
+            <div class="projects">
+                <div class="card" style="width: 17rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">College-FixIt</h5>
+                        <p class="card-text" style="font-size: small;">
+                            A simple college complaint management system built for FOSSHACK V1.0.
+                            Students can submit complaints, and admins can manage, resolve, and track them easily — all
+                            in real time.
+                        </p>
+                        <a href="https://college-fix-it-final.vercel.app/" class="btn btn-light"
+                            style="border-color: #555;">Visit</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 17rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text" style="font-size: small;">
+                            A personal portfolio website built using HTML and CSS to showcase my skills, projects, and
+                            contact information.
+                        </p>
+                        <a href="https://deepudxd.github.io/portfolio/" class="btn btn-light"
+                            style="border-color: #555;">Visit</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 17rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Takatwar-Tournament</h5>
+                        <p class="card-text" style="font-size: small;">
+                            A tournament management system built for First Years for managing tournaments.
+                            It allows users to view matches, view auction and the admin to manage live matches and
+                            auctions in real time using firbase.
+                        </p>
+                        <a href="https://takatwar-tournament.web.app/" class="btn btn-light"
+                            style="border-color: #555;">Visit</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="contact">
