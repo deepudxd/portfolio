@@ -144,3 +144,21 @@ a:hover {
     transform: scale(1.1);
     transition: transform 0.2s;
 }
+
+.skill {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}   
+
+.skill img {
+    border-radius: 8px;
+    background-color: white;
+    padding: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}

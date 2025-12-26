@@ -37,15 +37,14 @@
 
         <section id="skills">
             <h2 class="mb-3">Tech Stack</h2>
-            <div class="d-flex flex-wrap gap-2">
-                <span class="badge bg-secondary">Python</span>
-                <span class="badge bg-secondary">HTML</span>
-                <span class="badge bg-secondary">CSS</span>
-                <span class="badge bg-secondary">JavaScript</span>
-                <span class="badge bg-secondary">Bootstrap</span>
-                <span class="badge bg-secondary">Firebase</span>
+            <div class="skill">
+                <img src="assets/Python.svg" alt="Python" width="40" height="40" title="Python"/>
+                <img src="assets/HTML5.svg" alt="HTML" width="40" height="40" title="HTML"/>
+                <img src="assets/CSS3.svg" alt="CSS" width="40" height="40" title="CSS"/>
+                <img src="assets/JavaScript.svg" alt="JavaScript" width="40" height="40" title="JavaScript"/>
+                <img src="assets/Bootstrap.svg" alt="Bootstrap" width="40" height="40" title="Bootstrap"/>
+                <img src="assets/Firebase.svg" alt="Firebase" width="40" height="40" title="Firebase"/>
             </div>
-            <br>
         </section>
         <section id="projects">
             <h2>Projects</h2>
@@ -118,6 +117,29 @@
             </svg>
         </section>
     </main>
+
+
+
+
+
+
+
+    <script>
+  const hamburgerBtn = document.getElementById('hamburger-btn');
+  const navList = document.getElementById('nav-list');
+
+  hamburgerBtn.addEventListener('click', () => {
+    navList.classList.toggle('active');
+  });
+
+  // Optional: close menu when a link is clicked
+  navList.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navList.classList.remove('active');
+    });
+  });
+</script>
+
 </body>
 
 </html>
