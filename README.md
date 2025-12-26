@@ -9,6 +9,7 @@ I'm a beginner Python developer learning web development and building projects t
 ## Technologies Used
 - HTML
 - CSS
+- BootStrap
 
 ## Projects
 Projects will be added soon.
