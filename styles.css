@@ -17,6 +17,11 @@ header {
     padding: 15px 30px;
 }
 
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -171,8 +176,4 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-.port {
-    background-color: #222;
 }
